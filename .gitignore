@@ -8,6 +8,7 @@ website/.docusaurus/
 
 # Yarn build
 website/node_modules/
+.yarn
 
 # Generated docs
 docs/contributing.md
