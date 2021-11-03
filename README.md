@@ -1,60 +1,43 @@
 [![FINOS - Incubating](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-incubating.svg)](https://finosfoundation.atlassian.net/wiki/display/FINOS/Incubating)
-![website build](https://github.com/finos/structured-products/workflows/Docusaurus-website-build/badge.svg)
 
 # Structured Products
 
-Short blurb about what your project does.
+# Overview
+The FINOS Structured Products project, led by Goldman Sachs and FragmosChain, aims to accelerate the build and support of structured products in the [ISDA Common Domain Model (CDM)](https://www.isda.org/2019/10/14/isda-common-domain-model/).
 
-## Installation
+For background on the Structured Products project, see [github.com/finos/financial-objects/issues/66](https://github.com/finos/financial-objects/issues/66) and [github.com/finos/community/issues/133](https://github.com/finos/community/issues/133), as well as the [FINOS Legend Pilot Case Study](https://www.finos.org/hubfs/FINOS/assets/FINOS%20Legend%20Case%20Study%202021.pdf). 
 
-OS X & Linux:
+## Business Problem
 
-```sh
-npm install my-crazy-module --save
-```
+1. As part of Phase 2 of the [Legend Studio FX Options pilot](https://www.finos.org/hubfs/FINOS/assets/FINOS%20Legend%20Case%20Study%202021.pdf), participants designed a CDM event function for `Knock In` (KI) lifecycle events (see [Minutes 9Jul20](https://github.com/finos/legend/issues/179) for details). At the time, the Studio feature for creating functions was to be built and submission was pending, but now the feature is ready for use. The following [CDM](https://www.isda.org/2019/10/14/isda-common-domain-model/) primitives formed the proposed `Knock In` function: `ObservationPrimitive` and `ExercisePrimitive`. However the CDM event model has since evolved and these primitives are deprecated.
+ 
+2. Today the [CDM](https://www.isda.org/2019/10/14/isda-common-domain-model/) has representation for vanilla products across the five key derivative asset classes but is yet to define more complex payouts. As the industry progresses to adopt the [CDM](https://www.isda.org/2019/10/14/isda-common-domain-model/) in trade processing, more complex products will need to be supported and will offer the industry well defined standards that haven't been available to date.
 
-Windows:
+## Proposed Solution
 
-```sh
-edit autoexec.bat
-```
+1. The proposed `Knock In` function will need further review and update, and ask is to collaborate on creating a new `Knock In` function solution for the [CDM](https://www.isda.org/2019/10/14/isda-common-domain-model/).
 
-## Usage example
+2. Project leads believe most of the building blocks are already available in the current state of the [CDM](https://www.isda.org/2019/10/14/isda-common-domain-model/). Expected work would mainly consist of moving/replicating existing items with some selective amendments, rather than creating many new items. Project participants will work together to validate this and build the code to define specific structured products of interest.
 
-A few motivating and useful examples of how your project can be used. Spice this up with code blocks and potentially screenshots / videos ([LiceCap](https://www.cockos.com/licecap/) is great for this kind of thing).
+# Roadmap
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+Project participants will begin by looking at the representation of the event function `Knock-In` and then progress to the representation of equity baskets. The proposal is to continue the work post completion of these two initial focus areas as the industry requires.
 
-## Development setup
+Modeling is being done in the [FINOS hosted instance of Legend Studio](https://legend.finos.org/studio), and a copy of the [CDM](https://www.isda.org/2019/10/14/isda-common-domain-model/) in Legend Studio can be accessed at https://legend.finos.org/studio/viewer/UAT-38. 
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+Please note that you will need to have an account on the [FINOS hosted instance of Legend Studio](https://legend.finos.org/studio) in order to access it. You can request an account at [finos.org/legend](finos.org/legend).
 
-```sh
-make install
-npm test
-```
+## Contributing: Get Involved
+There are several ways to contribute to Structured Products:
 
-## Roadmap
-
-List the roadmap steps; alternatively link the Confluence Wiki page where the project roadmap is published.
-
-1. Item 1
-2. Item 2
-3. ....
-
-## Contributing
-
-1. Fork it (<https://github.com/finos/structured-products/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Read our [contribution guidelines](.github/CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
-4. Commit your changes (`git commit -am 'Add some fooBar'`)
-5. Push to the branch (`git push origin feature/fooBar`)
-6. Create a new Pull Request
+* **Join the next meeting**: participants of the Structured Products project meet every second Wednesday at 9am ET / 2pm GMT. Find the next meeting on the [FINOS Community calendar](https://calendar.google.com/calendar/u/0/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig@group.calendar.google.com&ctz=America/New_York) and browse [past meeting minutes in GitHub](https://github.com/finos/structured-products/issues). Email [help@finos.org](mailto:help@finos.org) to be added to the recurring calendar invite.
+* **Join the mailing list**: Communications for the Structured Products project are conducted through the **structured-products@lists.finos.org** mailing list. Please email [help@finos.org](mailto:help@finos.org) to be added to the mailing list.
+* **Propose changes to the model**: request an account on the FINOS Legend Studio hosted instance at [finos.org/legend](https://www.finos.org/legend) in order to access the model at https://legend.finos.org/studio/-/setup/UAT-28793838. 
+* **Raise an issue**: if you have any questions or suggestions, please [raise an issue](https://github.com/finos/structured-products/issues)
 
 _NOTE:_ Commits and pull requests to FINOS repositories will only be accepted from those contributors with an active, executed Individual Contributor License Agreement (ICLA) with FINOS OR who are covered under an existing and active Corporate Contribution License Agreement (CCLA) executed with FINOS. Commits from individuals not covered under an ICLA or CCLA will be flagged and blocked by the FINOS Clabot tool (or [EasyCLA](https://github.com/finos/community/blob/master/governance/Software-Projects/EasyCLA.md)). Please note that some CCLAs require individuals/employees to be explicitly named on the CCLA.
 
 *Need an ICLA? Unsure if you are covered under an existing CCLA? Email [help@finos.org](mailto:help@finos.org)*
-
 
 ## License
 
