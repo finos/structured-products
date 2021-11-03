@@ -27,8 +27,8 @@ Modeling is being done in the [FINOS hosted instance of Legend Studio](https://l
 
 Please note that you will need to have an account on the [FINOS hosted instance of Legend Studio](https://legend.finos.org/studio) in order to access it. You can request an account at [finos.org/legend](finos.org/legend).
 
-## Contributing: Get Involved
-There are several ways to contribute to Structured Products:
+# Contributing: Get Involved
+There are several ways to contribute to the Structured Products project:
 
 * **Join the next meeting**: participants of the Structured Products project meet every second Wednesday at 9am ET / 2pm GMT. Find the next meeting on the [FINOS Community calendar](https://calendar.google.com/calendar/u/0/embed?src=finos.org_fac8mo1rfc6ehscg0d80fi8jig@group.calendar.google.com&ctz=America/New_York) and browse [past meeting minutes in GitHub](https://github.com/finos/structured-products/issues). Email [help@finos.org](mailto:help@finos.org) to be added to the recurring calendar invite.
 * **Join the mailing list**: Communications for the Structured Products project are conducted through the **structured-products@lists.finos.org** mailing list. Please email [help@finos.org](mailto:help@finos.org) to be added to the mailing list.
