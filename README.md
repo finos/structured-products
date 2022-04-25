@@ -2,7 +2,7 @@
 
 # Structured Products
 
-The Strucuted Products Project Repo is being hosted on the FINOS Gitlab Structured Products Project Repo: https://gitlab.com/finosfoundation/legend/financial-objects/structured-products
+The Structured Products Project Repo is now hosted on the FINOS Gitlab Structured Products Project Repo: https://gitlab.com/finosfoundation/legend/financial-objects/structured-products
 
 
 # Overview
