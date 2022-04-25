@@ -2,6 +2,9 @@
 
 # Structured Products
 
+The Strucuted Products Project Repo is being hosted on the FINOS Gitlab Structured Products Project Repo: https://gitlab.com/finosfoundation/legend/financial-objects/structured-products
+
+
 # Overview
 The FINOS Structured Products project, led by Goldman Sachs and FragmosChain, aims to accelerate the build and support of structured products in the [ISDA Common Domain Model (CDM)](https://www.isda.org/2019/10/14/isda-common-domain-model/).
 
