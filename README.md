@@ -1,6 +1,6 @@
 [![FINOS - Archived](https://cdn.jsdelivr.net/gh/finos/contrib-toolbox@master/images/badge-archived.svg)](https://community.finos.org/docs/governance/Software-Projects/stages/archived)
 
-_This project is archived, which means that it's in read-only state; you can download and use this code, but please be aware that it may be buggy and may also contain security vulnerabilities. For more information on CDM (Common Domain Model) and the CDM Structured Products Working Group, please refer to the cdm.finos.org website and the CDM GitHub repository._
+_This project is archived, which means that it's in read-only state; you can download and use this code, but please be aware that it may be buggy and may also contain security vulnerabilities. For more information on CDM (Common Domain Model) and the CDM Structured Products Working Group, please refer to the [cdm.finos.org](https://cdm.finos.org) website and the [CDM GitHub repository](https://github.com/finos/common-domain-model)._
 
 # Structured Products
 
